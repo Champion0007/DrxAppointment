@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section className='flex flex-col-reverse lg:flex-row px-6 lg:px-16 py-12 lg:py-20 gap-10 lg:gap-16 items-center justify-between'>
 
-      {/* LEFT CONTENT */}
+     
       <div className="flex flex-col gap-5 text-center lg:text-left max-w-xl">
         
         <p className='text-white bg-[#a5b7ee] w-fit px-3 py-1 text-sm rounded-full mx-auto lg:mx-0'>
@@ -33,7 +33,7 @@ const HeroSection = () => {
 
       </div>
 
-      {/* RIGHT IMAGE */}
+     
       <div className="w-full max-w-md lg:max-w-xl">
         <img 
           className='rounded-xl w-full object-cover shadow-md'
